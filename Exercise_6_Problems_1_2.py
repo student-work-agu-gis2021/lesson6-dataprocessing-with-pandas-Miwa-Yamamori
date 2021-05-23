@@ -198,7 +198,7 @@ data['temp_celsius'] = data['TAVG'].apply(fahr_to_celsius)
 # I could not solve the problem any more
 # I learnt how to find the average temperature for each month by using a key of "MONTH"
 # but not sure how to find the average temperature for each month each year
-# I have no idea to distinguish between 196904 and 196504
+# I have no idea to distinguish between 196904 and 197004
 
 #CAUTION!!! DON'T EDIT THIS PART START
 # This test print should print the length of variable monthly_data
