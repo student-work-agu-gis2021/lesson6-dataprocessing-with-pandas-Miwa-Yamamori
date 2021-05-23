@@ -19,7 +19,7 @@ data = None
 # YOUR CODE HERE 1
 # Read the data from 'data/1091402.txt'
 # Specify the path to the file of the data
-fp = r'data.txt'
+fp = r'data/1091402.txt'
 # Read the data by using pd.read_csv
 # -9999 is NaN and 1st row is skipped
 data = pd.read_csv(fp, delim_whitespace=True, header=0, na_values=-9999, skiprows=[1])
