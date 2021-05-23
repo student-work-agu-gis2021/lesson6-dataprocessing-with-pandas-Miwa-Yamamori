@@ -193,7 +193,8 @@ def fahr_to_celsius(temp_fahrenheit):
 
 # Convert the TAVG value in Fahrenheit into Celsius
 # Make new column, 'temp_celsius' with the calculated value
-data['temp_celsius'] = data['TAVG'].apply(fahr_to_celsius)
+monthly_data['temp_celsius'] = data['TAVG'].apply(fahr_to_celsius)
+
 
 # I could not solve the problem any more
 # I learnt how to find the average temperature for each month by using a key of "MONTH"
